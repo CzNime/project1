@@ -30,6 +30,6 @@ Route::get('/siswa', function(){
     return view('universitas.mahasiswa')->with('mahasiswa', $array_nama);
 });
 
-Route::get('/dosen/{namadosen}', function ($namadosen) {
-    return "$namadosen dosen galak, pelit nilai";
+Route::get('/crush/{crush}', function ($crush) {
+    return "$crush gw cakep bat";
 });
